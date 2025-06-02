@@ -1,130 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>netflix clone  - Watch Tv Shows online, watch movie online</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>MUSIC WEBSITE</title>
 </head>
+
 <body>
-    <div class="main">
-        <nav>
-            <span><img width="150" src="assests/images/logo.jpg" alt=""></span>
-            <div>
-                <button class="btn">English</button>
-                <button class="btn btn-red-sm">Sign In</button>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-file-music"></i> Playlist</h4>
+                <h4><span></span><i class="bi bi-file-music"></i> Last Listening</h4>
+                <h4><span></span><i class="bi bi-file-music"></i> Recommended</h4>
             </div>
-        </nav>
-        <div class="box"></div>
-         <div class="hero">
-            <span>Enjoy big movie, hit series and more from rs149.</span>
-            <span>join today. Cancle anytime.</span>
-            <span>Ready to watch? Enter your email to create or restart your memberships.</span>
-            <div class="hero-buttons">
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started &gt;</button>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="8"></i>
+                </li>
             </div>
-         </div>
-         <div class="separation"></div>ration
-    </div>
-    <section class="first">
-        <div>
-            <span>Enjoy on your TV</span>
-            <span>watch on smart TVs, PlayStation, Xbox, Chromecast, apple TV, Blu-ray players and more.</span>
         </div>
-        <div class="secImg">
-            <img src="assests/images/enjoy.jpg" alt="">
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RADIO</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                </div>
+                <div class="user">
+                    <img src="img/25.jpg" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Alen Walker-Fade</h1>
+                <p>You were the shadow to my light did You feel us Another start you fade <br> Away afraid our aim is
+                    out of sight Wanna see us Alive</p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                        <div class="img_play">
+                             <img src="img/1.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="16"></i>
+                        </div>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="item Artists_bx">
+                    <li>
+                        <img src="img/18.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/19.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/20.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/21.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/22.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/23.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/24.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/25.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/26.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/17.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/16.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/15.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/15.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/14.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/24.jpg" alt="">
+                    </li>
+                </div>
+            </div>
         </div>
-    </section>
-    <div class="separation"></div>
-    <section class="first second">
-        <div class="secImg">
-            <img src="assests/images/mobile.jpg" alt="">
+
+
+
+        <div class="master_play">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="img/26.jpg" alt="" id="poster_master_play">
+            <h5 id="title">
+                Vande mataram
+                <div class="subtitle">Bankim Chandra</div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <i class="bi bi-cloud-arrow-down-fill" id="download_music"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
         </div>
-        <div>
-            <span>Download your shows to watch offline</span>
-            <span>Save your favourites easily and always have something to watch.</span>
-        </div>
-    </section>
-    <div class="separation"></div>
-    <section class="first third">
-        <div>
-            <span>Watch everywhere</span>
-            <span>Stream unlimited movies and TV shows on your phone, tablets, laptop, and TV.</span>
-        </div>
-        <div class="secImg">
-            <img src="assests/images/movie.jpg" alt="">
-        </div>
-    </section>
-    <div class="separation"></div>
-    <section class="first second">
-        <div class="secImg">
-            <img src="assests/images/children.jpg" alt="">
-        </div>
-        <div>
-            <span>Create profiles for kids</span>
-            <span>Send children on adventures with their favourite characters in a space made just for them-free with your memberships</span>
-        </div>
-    </section>
-    <div class="separation"></div>
-    <section class="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faqbox">
-            <span>What is Netflix</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="white">
-                <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="faqbox">
-            <span>How much does Netflix cost?</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="white">
-                <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="faqbox">
-            <span>Where Can I watch?</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="white">
-                <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="faqbox">
-            <span>How do I cancle? </span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="white">
-                <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </div>
-    </section>
-    <div class="separation"></div>
-    <footer>
-        <div class="question">
-            Questions? Call 000-800-919-1694
-        </div>
-        <div class="footer">
-        <div class="footer-item">
-            <a href="faq">FAQ</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-        </div>
-        <div class="footer-item">
-            <a href="faq">FAQ</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-        </div>
-        <div class="footer-item">
-            <a href="faq">FAQ</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-        </div>
-        <div class="footer-item">
-            <a href="faq">FAQ</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Investor Relations</a>
-        </div>
-    </div>
-    </footer>
+    </header>
+    <script src="app.js"></script>
 </body>
+
 </html>
